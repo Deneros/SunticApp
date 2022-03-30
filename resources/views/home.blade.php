@@ -4,11 +4,11 @@
 
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-5">
             <div class="card">
-                <div class="card-header"> <h2><strong>Two factor authentication</strong> </h2> </div>
+                <div class="card-header m-auto"> <h2><strong>Two factor authentication</strong> </h2> </div>
 
-                <div class="card-body">
+                <div class="card-body m-auto">
                     @if (session('status')== "two-factor-authentication-disabled")
                         <div class="alert alert-success" role="alert">
                             two Factor Authentication has been disabled.
